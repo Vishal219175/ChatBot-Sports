@@ -26,6 +26,7 @@ const CricketSearch = ({ actionProvider }) => {
         { value: 'CSK', label: 'CSK', players: ['Dhoni', 'Raina', 'Jadeja'] },
         { value: 'DC', label: 'DC', players: ['Warner', 'Pant', 'Shaw'] },
         { value: 'Mi', label: 'Mi', players: ['Rohit', 'Bumrah', 'Pollard'] },
+        { value: 'SRH', label: 'SRH', players: ['Markaram', 'Cummins', 'Sandeep'] },
       ];
       setTeamOptions(sampleCricketData);
       localStorage.setItem('CricketData', JSON.stringify(sampleCricketData));

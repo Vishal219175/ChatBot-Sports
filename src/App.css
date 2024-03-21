@@ -1,0 +1,23 @@
+/* App.css */
+.App {
+  text-align: center;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-chatbot-kit-chat-header {
+  background-color: #b9bbbe;
+}
+
+.react-chatbot-kit-chat-container {
+  width: 500px;
+  background-color: white; 
+  border: 1px solid #ccc;/
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 1px; 
+}
